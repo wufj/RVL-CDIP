@@ -86,7 +86,7 @@ vali_dataset = vali_dataset.prefetch(tf.data.experimental.AUTOTUNE)
 #     tf.keras.layers.Flatten(),
 #     tf.keras.layers.Dense(64, activation='relu'),
 #     tf.keras.layers.Dense(16, activation='softmax')
-# ])
+#  ])
 model = tf.keras.applications.VGG16(weights=None, input_shape=(256, 256, 1),classes=16)
 model.compile(
     optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
