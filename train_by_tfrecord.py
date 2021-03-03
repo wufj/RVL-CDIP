@@ -121,4 +121,4 @@ history = model.fit(train_dataset, epochs=10,
 
 
 
-# pic_show(tfrecord_file)
+# pic_show(tfrecord_file )
